@@ -12,9 +12,7 @@ import javax.sql.DataSource;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Timestamp;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 //import org.apache.commons.dbutils.handlers.BeanHandler;
 //import org.apache.commons.dbutils.handlers.BeanListHandler;
@@ -120,10 +118,9 @@ public class UserDaoImpl {
                     }
                     return 0L;
                 }
-
             });
 
-            return (long) count;
+            return count;
         } catch (SQLException e) {
             e.printStackTrace();
             return 0L;
@@ -142,8 +139,22 @@ public class UserDaoImpl {
         System.out.println("janesName=="+janesName);
         System.out.println("janesAge=="+janesAge);
         System.out.println("code is ok");
+
+
+        for (Object o : found.entrySet()) {
+            Map.Entry entry = (Map.Entry) o;
+            Object object = entry.getKey();
+            Object object2 = entry.getValue();
+            System.out.println(object.toString());
+            System.out.println(object2.toString() + "--id--" + object2.getClass());
+
+            HashMap hashMap = (HashMap) object2;
+
+            Iterator iterator1 = hashMap.entrySet().iterator();
+            while (iterator1.hasNext()) {
+                Map.Entry entry1 = (Map.Entry) iterator1.next();
+                System.out.println("value遍历==" + entry1.getValue());
+            }
+        }
     }
-
-
-
 }
