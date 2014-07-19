@@ -95,13 +95,15 @@ public class UserDaoImpl {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
         UserDaoImpl udi = new UserDaoImpl();
         User user = new User();
         user.setName("myu");
         user.setAge("33");
         udi.save(user);
         long count = udi.getCount();
+
+        udi.getHashMap();
         System.out.println(count);
     }
 
@@ -134,9 +136,11 @@ public class UserDaoImpl {
         QueryRunner runner = new QueryRunner(getDataSource());
 
         Map found = (Map) runner.query("select id, name,age from people", h);
-        Map jane = (Map) found.get(new Long(3)); // jane's id is 1
+        Map jane = (Map) found.get(3); // jane's id is 1
         String janesName = (String) jane.get("name");
         Integer janesAge = (Integer) jane.get("age");
+        System.out.println("janesName=="+janesName);
+        System.out.println("janesAge=="+janesAge);
     }
 
 
