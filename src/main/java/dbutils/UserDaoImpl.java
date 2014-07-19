@@ -1,21 +1,15 @@
 package dbutils;//package com.test.dbutil;
-
-
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.ResultSetHandler;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.KeyedHandler;
-
 import javax.sql.DataSource;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.util.*;
-
-//import org.apache.commons.dbutils.handlers.BeanHandler;
-//import org.apache.commons.dbutils.handlers.BeanListHandler;
 
 public class UserDaoImpl {
 
@@ -23,11 +17,8 @@ public class UserDaoImpl {
         String url = "jdbc:mysql://192.168.1.125:3306/wind";
         MysqlDataSource ds = new MysqlDataSource();
         ds.setServerName("192.168.1.125");
-        //
-//		ds.setDatabaseName("testdbutils");
         ds.setURL(url);
         ds.setUser("root");
-        //
         ds.setPassword("");
         ds.setCharacterEncoding("utf8");
         return ds;
@@ -91,7 +82,7 @@ public class UserDaoImpl {
         } catch (SQLException e) {
             System.out.println("插入失败，失败原因:" + e.getMessage() + "--");
         }
-
+        //方法中的一段抽取为函数示例
         testMethod();
     }
 
