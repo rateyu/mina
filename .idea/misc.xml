@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="Osmorc" url="file://$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-core" />
+  </component>
+  <component name="IdProvider" IDEtalkID="A2D39ED715D3FB7F813EA91175C1454F" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="C:/my_codes/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-example/pom.xml" />
+        <option value="$USER_HOME$/Downloads/commons-dbcp2-2.0.1-src/commons-dbcp2-2.0.1-src/pom.xml" />
+        <option value="$USER_HOME$/Downloads/commons-dbutils-1.5-src/commons-dbutils-1.5-src/pom.xml" />
+        <option value="$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/pom.xml" />
+        <option value="$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-example/pom.xml" />
+        <option value="$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-core/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-filter-compression/pom.xml" />
+        <option value="$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-http/pom.xml" />
+        <option value="$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-integration-beans/pom.xml" />
+        <option value="$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-integration-jmx/pom.xml" />
+        <option value="$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-integration-ognl/pom.xml" />
+        <option value="$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-integration-xbean/pom.xml" />
+        <option value="$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-legal/pom.xml" />
+        <option value="$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-statemachine/pom.xml" />
+        <option value="$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-transport-apr/pom.xml" />
+        <option value="$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/pom.xml" />
+        <option value="$PROJECT_DIR$/dbtools/pom.xml" />
+        <option value="$PROJECT_DIR$/libs/pom.xml" />
+        <option value="$PROJECT_DIR$/mongodb-test/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
+

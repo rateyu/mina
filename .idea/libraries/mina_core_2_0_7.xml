@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="mina-core-2.0.7">
+    <CLASSES>
+      <root url="jar://C:/my_codes/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-example/dist/mina-core-2.0.7.jar!/" />
+      <root url="jar://C:/my_codes/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-example/dist/mina-filter-compression-2.0.7.jar!/" />
+      <root url="jar://C:/my_codes/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-example/dist/mina-integration-beans-2.0.7.jar!/" />
+      <root url="jar://C:/my_codes/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-example/dist/mina-integration-jmx-2.0.7.jar!/" />
+      <root url="jar://C:/my_codes/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-example/dist/mina-integration-ognl-2.0.7.jar!/" />
+      <root url="jar://C:/my_codes/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-example/dist/mina-integration-xbean-2.0.7.jar!/" />
+      <root url="jar://C:/my_codes/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-example/dist/mina-statemachine-2.0.7.jar!/" />
+      <root url="jar://C:/my_codes/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-example/dist/mina-transport-apr-2.0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
