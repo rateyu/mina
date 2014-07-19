@@ -141,6 +141,7 @@ public class UserDaoImpl {
         Integer janesAge = (Integer) jane.get("age");
         System.out.println("janesName=="+janesName);
         System.out.println("janesAge=="+janesAge);
+        System.out.println("code is ok");
     }
 
 
