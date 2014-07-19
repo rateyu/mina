@@ -91,7 +91,15 @@ public class UserDaoImpl {
         } catch (SQLException e) {
             System.out.println("插入失败，失败原因:" + e.getMessage() + "--");
         }
+
+        testMethod();
     }
+
+    private void testMethod() {
+        int a =0;
+        a++;
+    }
+
 
     public static void main(String[] args) throws SQLException {
         UserDaoImpl udi = new UserDaoImpl();
@@ -132,13 +140,13 @@ public class UserDaoImpl {
         ResultSetHandler h = new KeyedHandler("id");
         QueryRunner runner = new QueryRunner(getDataSource());
 
-        Map found = (Map) runner.query("select id, name,age from people", h);
-        Map jane = (Map) found.get(3); // jane's id is 1
-        String janesName = (String) jane.get("name");
-        Integer janesAge = (Integer) jane.get("age");
-        System.out.println("janesName=="+janesName);
-        System.out.println("janesAge=="+janesAge);
-        System.out.println("code is ok");
+        Map found = (Map) runner.query("select id, name,age from people_copy", h);
+//        Map jane = (Map) found.get(3); // jane's id is 1
+//        String janesName = (String) jane.get("name");
+//        Integer janesAge = (Integer) jane.get("age");
+//        System.out.println("janesName=="+janesName);
+//        System.out.println("janesAge=="+janesAge);
+//        System.out.println("code is ok");
 
 
         for (Object o : found.entrySet()) {
