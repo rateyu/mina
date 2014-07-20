@@ -13,6 +13,7 @@ public class User {
 
     int id =0 ;
     String name = "";
+    String age = "";
 
     public String getAge() {
         return age;
@@ -23,7 +24,6 @@ public class User {
     }
 
     //    String sex = "";
-    String age = "";
 //    String birth ="";
 //    Date date = new Date();
 
