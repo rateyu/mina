@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
-    <file url="file://$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-core" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-example" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-filter-compression" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-http" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-integration-beans" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-integration-jmx" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-integration-ognl" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-integration-xbean" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-legal" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-statemachine" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-transport-apr" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/commons-dbcp2-2.0.1-src/commons-dbcp2-2.0.1-src" charset="UTF-8" />
-    <file url="file://$USER_HOME$/Downloads/commons-dbutils-1.5-src/commons-dbutils-1.5-src" charset="ISO-8859-1" />
-    <file url="file://C:/mycodes/workspace/JsFileAnlyse/java2javascript/Java2Javascript.java" charset="UTF-8" />
-  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
 </project>
 
