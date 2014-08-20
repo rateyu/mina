@@ -16,6 +16,10 @@ public class UserDaoImpl {
     public DataSource getDataSource() {
         String url = "jdbc:mysql://192.168.1.125:3306/wind";
         MysqlDataSource ds = new MysqlDataSource();
+
+	//emacs i am coming myu.bruce
+	//emacs ceshi tijiao 
+
         ds.setServerName("192.168.1.125");
         ds.setURL(url);
         ds.setUser("root");
