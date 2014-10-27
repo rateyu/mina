@@ -5,6 +5,12 @@ package dbutils;
  */
 public class User {
 
+
+    public static void main(String[] args) {
+        String hello="hello";
+        System.out.print(hello);
+
+    }
 //    user.getId(),
 //            user.getName(),
 //            user.getAge(),
@@ -12,6 +18,7 @@ public class User {
 //            user.getBirth()
 
     int id =0 ;
+//    sout
     String name = "";
     String age = "";
 
@@ -24,6 +31,10 @@ public class User {
     }
 
     //    String sex = "";
+
+    String hello = "hello";
+
+    String string ="hell";
 //    String birth ="";
 //    Date date = new Date();
 
