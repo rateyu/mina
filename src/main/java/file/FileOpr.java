@@ -18,12 +18,8 @@ public class FileOpr {
         {
             System.out.println(File.separator);
             System.out.println(System.getProperty("user.dir"));
-//            FileInputStream fileInputStream = new FileInputStream("f:"+ File.separator +"IBM e-Mentor Program Kickoff Night 1105.pdf");
-//            FileOutputStream fileOutputStream = new FileOutputStream("f:" + File.separator + "test.pdf");
-//            FileOutputStream fileOutputStream = new FileOutputStream("." + File.separator + "pom.xml");
             FileInputStream fileInputStream = new FileInputStream("."+ File.separator +"test.txt");
             FileChannel inChannel = fileInputStream.getChannel();
-//            FileChannel outChannel= fileOutputStream.getChannel();
             ByteBuffer byteBuffer = ByteBuffer.allocate(2);
             //Direct Buffer的效率会更高。
             //ByteBuffer byteBuffer = ByteBuffer.allocateDirect(1024);
@@ -36,14 +32,11 @@ public class FileOpr {
 
             while(true)
             {
-//                byteBuffer.clear();
                 int eof = inChannel.read(byteBuffer);
                 if(eof == -1 ) break;
-//                CharBuffer charBuffer = decoder.decode(byteBuffer.asReadOnlyBuffer());
                 //准备读出缓冲区
                 byteBuffer.flip();
                 System.out.println("----"+byteBuffer.asCharBuffer().toString());
-//                outChannel.write(byteBuffer);
                 //准备写入缓冲区
                 byteBuffer.clear();
             }
@@ -59,6 +52,5 @@ public class FileOpr {
                 System.out.println(s.trim());
                 System.out.println("222222");
             }
-//            outChannel.close();
         }
 }

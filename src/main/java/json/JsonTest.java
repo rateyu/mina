@@ -15,9 +15,7 @@ public class JsonTest {
     public static void main(String[] args) {
         JSONArray jsonArray3 = (JSONArray) JSONArray.parse("['json','is','easy']");
 
-//        JSONArray.parseObject()
         System.out.println( jsonArray3 );
-
 
         List list = new ArrayList();
 
@@ -25,7 +23,6 @@ public class JsonTest {
         list.add( "second" );
 
         String strJson = JSON.toJSONString(list,true);
-//        JSONObject jsonArray2 = JSONArray.parseObject(String.valueOf(list));
         System.out.println( "--"+strJson+"--" );
 
         User user = null;
@@ -42,9 +39,6 @@ public class JsonTest {
 
         strJson = JSON.toJSONString(list,true);
         System.out.println(strJson);
-
-
-
 
     }
 }

@@ -17,9 +17,6 @@ public class UserDaoImpl {
         String url = "jdbc:mysql://192.168.1.125:3306/wind";
         MysqlDataSource ds = new MysqlDataSource();
 
-	//emacs i am coming myu.bruce
-	//emacs ceshi tijiao 
-
         ds.setServerName("192.168.1.125");
         ds.setURL(url);
         ds.setUser("root");
@@ -80,8 +77,6 @@ public class UserDaoImpl {
             Date date = new Date();
             Timestamp timeStamp = new Timestamp(date.getTime());
             int myu;
-//            myu = runner.update("insert into people values(13,'name',33)");
-//            myu = runner.update("insert into publishdate values(23,'"+timeStamp+"','时间')");
             myu = runner.update("insert into publishdate (publishdate,hello) values('" + timeStamp + "','时间2')");
         } catch (SQLException e) {
             System.out.println("插入失败，失败原因:" + e.getMessage() + "--");
@@ -136,13 +131,6 @@ public class UserDaoImpl {
         QueryRunner runner = new QueryRunner(getDataSource());
 
         Map found = (Map) runner.query("select id, name,age from people_copy", h);
-//        Map jane = (Map) found.get(3); // jane's id is 1
-//        String janesName = (String) jane.get("name");
-//        Integer janesAge = (Integer) jane.get("age");
-//        System.out.println("janesName=="+janesName);
-//        System.out.println("janesAge=="+janesAge);
-//        System.out.println("code is ok");
-
 
         for (Object o : found.entrySet()) {
             Map.Entry entry = (Map.Entry) o;

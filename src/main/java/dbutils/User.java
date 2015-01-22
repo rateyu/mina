@@ -11,14 +11,8 @@ public class User {
         System.out.print(hello);
 
     }
-//    user.getId(),
-//            user.getName(),
-//            user.getAge(),
-//            user.getSex(),
-//            user.getBirth()
 
     int id =0 ;
-//    sout
     String name = "";
     String age = "";
 
@@ -30,31 +24,11 @@ public class User {
         this.age = age;
     }
 
-    //    String sex = "";
 
     String hello = "hello";
 
     String string ="hell";
-//    String birth ="";
-//    Date date = new Date();
 
-
-//    public String getBirth() {
-//        return birth;
-//    }
-//
-//    public void setBirth(String birth) {
-//        this.birth = birth;
-//    }
-//
-//
-//    public String getAge() {
-//        return age;
-//    }
-//
-//    public void setAge(String age) {
-//        this.age = age;
-//    }
 
     public String getName() {
         return name;
@@ -72,20 +46,5 @@ public class User {
         this.id = id;
     }
 
-//    public String getSex() {
-//        return sex;
-//    }
-//
-//    public void setSex(String sex) {
-//        this.sex = sex;
-//    }
-//
-//    public Date getDate() {
-//        return date;
-//    }
-//
-//    public void setDate(Date date) {
-//        this.date = date;
-//    }
 
 }
