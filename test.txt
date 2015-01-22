@@ -1,2 +1,6 @@
 hello
 world
+
+注意：提交用户名为 rateyu@gmail.com
+如何编写 markdown文档
+emacs文档
