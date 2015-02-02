@@ -8,7 +8,7 @@
       <module fileurl="file://$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-core/mina-core.iml" filepath="$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-core/mina-core.iml" />
       <module fileurl="file://$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-example/mina-example.iml" filepath="$USER_HOME$/Downloads/apache-mina-2.0.7-src/apache-mina-2.0.7/src/mina-example/mina-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/ratyu_test.iml" filepath="$PROJECT_DIR$/ratyu_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_gcc/test_gcc.iml" filepath="$PROJECT_DIR$/test_gcc/test_gcc.iml" />
     </modules>
   </component>
 </project>
-
