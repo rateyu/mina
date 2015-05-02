@@ -35,7 +35,7 @@
       <module name="mina-example" target="1.5" />
       <module name="mina-parent" target="1.5" />
       <module name="mongodb-test" target="1.7" />
+      <module name="ratyu_test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
-
