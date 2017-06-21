@@ -11,6 +11,7 @@ import java.nio.charset.CharsetDecoder;
 
 /**
  * Created by ym on 2014/8/20.
+ * 使用 apache 的file工具使用中很爽的体验
  */
 public class FileOpr {
 
